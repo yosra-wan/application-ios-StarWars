@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F208F559299CDDF400D8979E /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F208F558299CDDF400D8979E /* MovieViewCell.swift */; };
 		F29EDC64299B878700AFC9DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29EDC63299B878700AFC9DE /* AppDelegate.swift */; };
 		F29EDC66299B878700AFC9DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29EDC65299B878700AFC9DE /* SceneDelegate.swift */; };
 		F29EDC68299B878700AFC9DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29EDC67299B878700AFC9DE /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F208F558299CDDF400D8979E /* MovieViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
 		F29EDC60299B878700AFC9DE /* StarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29EDC63299B878700AFC9DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F29EDC65299B878700AFC9DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				F29EDC6C299B878A00AFC9DE /* Assets.xcassets */,
 				F29EDC6E299B878A00AFC9DE /* LaunchScreen.storyboard */,
 				F29EDC71299B878A00AFC9DE /* Info.plist */,
+				F208F558299CDDF400D8979E /* MovieViewCell.swift */,
 			);
 			path = StarWars;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F29EDC68299B878700AFC9DE /* ViewController.swift in Sources */,
+				F208F559299CDDF400D8979E /* MovieViewCell.swift in Sources */,
 				F29EDC64299B878700AFC9DE /* AppDelegate.swift in Sources */,
 				F29EDC66299B878700AFC9DE /* SceneDelegate.swift in Sources */,
 			);
