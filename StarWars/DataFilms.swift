@@ -7,14 +7,15 @@
 
 import SwiftUI
 
-struct DataFilms: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+   struct DataFilms : Decodable {
+    let title : String
+    let  episode:  Int
+    let description : String
+    let director : String
+    let producer : String
+    let date : String
+       enum CodingKeys: String, CodingKey {
+            case episode = "episode_id", title, director, producer, date = "release_date", description = "opening_crawl"
+          }
 }
-
-struct DataFilms_Previews: PreviewProvider {
-    static var previews: some View {
-        DataFilms()
-    }
-}
+    
